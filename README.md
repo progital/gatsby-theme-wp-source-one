@@ -1,4 +1,4 @@
-# gatsby-theme-wp-source-one
+# @progital/gatsby-theme-wp-source-one
 
 ## Description
 
@@ -6,7 +6,7 @@ The idea behind this theme is making a one-stop solution for a WordPress blog ow
 
 ```javascript
 {
-    resolve: 'gatsby-theme-wp-source-one',
+    resolve: '@progital/gatsby-theme-wp-source-one',
     options: {
         wordPressUrl: 'https://your.wordpress.site/',
     },
@@ -20,12 +20,12 @@ This theme uses GraphQL API to source WordPress content. Therefore the source Wo
 ## How to install
 
 ```bash
-yarn add gatsby-theme-wp-source-one
+yarn add @progital/gatsby-theme-wp-source-one
 ```
 
 ```javascript
 {
-  resolve: 'gatsby-theme-wp-source-one',
+  resolve: '@progital/gatsby-theme-wp-source-one',
   options: {
     wordPressUrl: 'https://your.wordpress.site/',
     menuLocation: 'MENU_1',
@@ -80,7 +80,7 @@ I have a WordPress site serving demo content at [https://noh.progital.dev](https
 
 ```javascript
 {
-    resolve: 'gatsby-theme-wp-source-one',
+    resolve: '@progital/gatsby-theme-wp-source-one',
     options: {
         wordPressUrl: 'https://noh.progital.dev/',
         processPostTypes: ['Page', 'Post', 'Event'],
@@ -88,7 +88,7 @@ I have a WordPress site serving demo content at [https://noh.progital.dev](https
 },
 ```
 
-
+A live demo is available at [https://gatsby-wp-theme.progital.dev](https://gatsby-wp-theme.progital.dev/).
 
 ## Shout Outs
 
