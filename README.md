@@ -39,7 +39,7 @@ yarn add @progital/gatsby-theme-wp-source-one
 
 `uploadsUrl` - _(optional)_ WordPress uploads folder. Uses default if this option not set.
 
-`processPostTypes` -  _(optional)_ post types to process. You can include [custom post types](https://docs.wpgraphql.com/getting-started/custom-post-types) as defined in WPGraphQL.
+`processPostTypes` - _(optional)_ post types to process. You can include [custom post types](https://docs.wpgraphql.com/getting-started/custom-post-types) as defined in WPGraphQL.
 
 `menuLocation` - WordPress [menu location](https://codex.wordpress.org/Function_Reference/register_nav_menus) slug. [Sanitized](https://github.com/wp-graphql/wp-graphql/blob/f92e9f4dc11db987f74ff458ab05f42a3e76b866/src/Type/WPEnumType.php#L32).
 
@@ -57,7 +57,7 @@ siteMetadata: {
     social: [
         {
             name: 'twitter',
-            url: 'https://twitter.com/your_twiiter',
+            url: 'https://twitter.com/your_twitter',
         },
     ],
 },
@@ -66,7 +66,7 @@ siteMetadata: {
 ## Features
 
 - Uses WordPress menu from a defined location. Only first level menu items are displayed. "Home" menu item is automatically added if there is no menu item linking to the site homepage.
-- Supports post categories. 
+- Supports post categories.
 - Downloads images embedded in posts/pages/CPTs and hosted on the WordPress site. Converts `<img>` tags to Gatbsy `<Img>` component.
 - Downloads featured images (post thumbnails) and makes them available as Gatsby `<Img>` component.
 - Downloads all other files linked in posts/pages/CPTs and hosted on the WordPress site. Serves them from the Gatsby static folder.
@@ -96,6 +96,6 @@ Special thanks for inspiration and some borrowed code go to:
 
 https://github.com/jlengstorf  
 https://github.com/jasonbahl  
-https://wordpress.org/themes/juliet/
+https://wordpress.org/themes/juliet/  
 
 Demo site uses images by [Unsplash](https://unsplash.com/) and text content from [Wikipedia](https://www.wikipedia.org/).
