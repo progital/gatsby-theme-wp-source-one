@@ -1,0 +1,58 @@
+{
+  "name": "@progital/gatsby-theme-wp-source-one",
+  "version": "0.1.0",
+  "author": "Andrey Shalashov <andrey@progital.io>",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "wordpress",
+    "wpgraphql"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "gatsby": "^2.13.12",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@mdx-js/react": "^1.0.27",
+    "@theme-ui/typography": "^0.2.5",
+    "gatsby-plugin-react-helmet": "^3.1.1",
+    "gatsby-plugin-sharp": "^2.2.4",
+    "gatsby-plugin-theme-ui": "^0.2.6",
+    "gatsby-source-graphql": "^2.1.2",
+    "gatsby-transformer-sharp": "^2.2.3",
+    "gatsby-wpgraphql-inline-images": "*",
+    "lodash": "^4.17.14",
+    "moment": "^2.24.0",
+    "react-helmet": "^5.2.1",
+    "striptags": "^3.1.1",
+    "theme-ui": "^0.2.13",
+    "typeface-crimson-text": "^0.0.72",
+    "typeface-lato": "^0.0.75",
+    "typeface-montserrat": "^0.0.75",
+    "urijs": "^1.19.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/progital/gatsby-theme-wp-source-one.git"
+  }
+}
