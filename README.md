@@ -88,7 +88,7 @@ I have a WordPress site serving demo content at [https://noh.progital.dev](https
 },
 ```
 
-A live demo is available at [https://gatsby-wp-theme.progital.dev](https://gatsby-wp-theme.progital.dev/).
+The demo site repo is at https://github.com/progital/gatsby-theme-wp-source-one-demo-site and a live demo is available at [https://gatsby-wp-theme.progital.dev](https://gatsby-wp-theme.progital.dev/).
 
 ## Shout Outs
 
