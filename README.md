@@ -94,10 +94,8 @@ I have a WordPress site serving demo content at [https://noh.progital.dev](https
 
 Special thanks for inspiration and some borrowed code go to:
 
-https://github.com/jlengstorf
-
-https://github.com/jasonbahl
-
+https://github.com/jlengstorf  
+https://github.com/jasonbahl  
 https://wordpress.org/themes/juliet/
 
 Demo site uses images by [Unsplash](https://unsplash.com/) and text content from [Wikipedia](https://www.wikipedia.org/).
