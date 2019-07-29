@@ -99,3 +99,7 @@ https://github.com/jasonbahl
 https://wordpress.org/themes/juliet/  
 
 Demo site uses images by [Unsplash](https://unsplash.com/) and text content from [Wikipedia](https://www.wikipedia.org/).
+
+## How to contribute
+
+This is a WIP and any contribution, feedback and PRs are very welcome. Issues is a preferred way of submitting feedback, but you can also email to [andrey@progital.io](mailto:andrey@progital.io).
