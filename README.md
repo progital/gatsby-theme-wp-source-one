@@ -39,7 +39,7 @@ yarn add @progital/gatsby-theme-wp-source-one
 
 `uploadsUrl` - _(optional)_ WordPress uploads folder. Uses default if this option not set.
 
-`processPostTypes` - _(optional)_ post types to process. You can include [custom post types](https://docs.wpgraphql.com/getting-started/custom-post-types) as defined in WPGraphQL.
+`processPostTypes` - _(optional)_ post types to process. You can include [custom post types](https://docs.wpgraphql.com/getting-started/custom-post-types) as defined in WPGraphQL however CPTs also need to have some code added to create pages on Gatsby site. And that is currently outside of this theme's scope.
 
 `menuLocation` - WordPress [menu location](https://codex.wordpress.org/Function_Reference/register_nav_menus) slug. [Sanitized](https://github.com/wp-graphql/wp-graphql/blob/f92e9f4dc11db987f74ff458ab05f42a3e76b866/src/Type/WPEnumType.php#L32).
 
