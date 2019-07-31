@@ -76,14 +76,13 @@ This theme utilizes the [gatsby-wpgraphql-inline-images](https://github.com/prog
 
 ## Examples of usage
 
-I have a WordPress site serving demo content at [https://noh.progital.dev](https://noh.progital.dev/). It uses the default twentynineteen theme so there is no need to configure menu location. For demoing CPTs the "Event" custom post type was added.
+I have a WordPress site serving demo content at [https://noh.progital.dev](https://noh.progital.dev/). It uses the default twentynineteen theme so there is no need to configure menu location.
 
 ```javascript
 {
     resolve: '@progital/gatsby-theme-wp-source-one',
     options: {
         wordPressUrl: 'https://noh.progital.dev/',
-        processPostTypes: ['Page', 'Post', 'Event'],
     },
 },
 ```
