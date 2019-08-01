@@ -14,15 +14,16 @@ const Bio = () => {
   const allImages = useAllImages();
   const avatar = queryLocalImage(themeOptions.bioAvatarImage, allImages);
 
+  // way of emulating fixed image size with `fluid` data
+  if (avatar) {
+    avatar.sizes = '300px';
+  }
+
   return (
     <Flex
       sx={{
         flexDirection: 'column',
         width: '100%',
-        // '&:after': {
-        //   clear: 'both',
-        //   content: '" "',
-        // },
       }}
     >
       <Styled.h4>About me</Styled.h4>

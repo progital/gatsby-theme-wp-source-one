@@ -32,6 +32,11 @@ const PostEntry = ({ post, title, urlPrefix = '' }) => {
     ({ slug }) => slug !== 'uncategorized'
   );
 
+  // way of emulating fixed image size with `fluid` data
+  if (fluidData) {
+    fluidData.sizes = '700px';
+  }
+
   return (
     <Flex sx={{ flexDirection: 'column' }}>
       <Flex sx={{ flexDirection: ['column', 'column', 'row'] }}>
