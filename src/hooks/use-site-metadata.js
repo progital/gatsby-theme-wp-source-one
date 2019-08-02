@@ -29,6 +29,7 @@ const useSiteMetadata = () => {
             homepageHeroImage
             bioAvatarImage
             indexPageSize
+            generateWebp
           }
         }
       }

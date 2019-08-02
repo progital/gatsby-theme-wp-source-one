@@ -17,6 +17,8 @@ const prepareThemeOptions = options => {
   const processPostTypes = options.processPostTypes || ['Page', 'Post'];
   // this one needs to be capitalized
   const mainMenuSlug = options.menuLocation || 'MENU_1';
+  // whether to generate webp images
+  const generateWebp = options.useWebp || false;
   const wordPressUrl = new URIParser(options.wordPressUrl).normalize();
   // if not defined the default uploads folder is used
   let uploadsUrl = new URIParser(
@@ -42,6 +44,7 @@ const prepareThemeOptions = options => {
     homepageHeroImage,
     bioAvatarImage,
     indexPageSize,
+    generateWebp,
   };
 };
 

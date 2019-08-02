@@ -23,7 +23,7 @@ const useImageFiles = () => {
             relativePath
             childImageSharp {
               fluid(maxWidth: 1380) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
