@@ -11,6 +11,7 @@ module.exports = options => {
     processPostTypes,
     wpqlTypeName,
     generateWebp,
+    debugOutput,
   } = themeOptions;
 
   console.log(`wordpress URL: ${wordPressUrl}`);
@@ -42,6 +43,7 @@ module.exports = options => {
           uploadsUrl,
           processPostTypes,
           generateWebp,
+          debugOutput,
           graphqlTypeName: wpqlTypeName,
         },
       },
