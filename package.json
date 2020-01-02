@@ -41,7 +41,7 @@
     "gatsby-plugin-theme-ui": "^0.2.6",
     "gatsby-source-graphql": "^2.1.2",
     "gatsby-transformer-sharp": "^2.2.3",
-    "gatsby-wpgraphql-inline-images": "*",
+    "gatsby-wpgraphql-inline-images": "~0.2",
     "lodash": "^4.17.14",
     "moment": "^2.24.0",
     "react-helmet": "^5.2.1",
