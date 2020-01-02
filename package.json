@@ -1,7 +1,7 @@
 {
   "name": "@progital/gatsby-theme-wp-source-one",
   "description": "WordPress source theme for Gastby",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Andrey Shalashov <andrey@progital.io>",
   "main": "gatsby-config.js",
   "license": "MIT",
